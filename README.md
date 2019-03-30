@@ -12,3 +12,6 @@ Scraping Hubs Tutorial: https://learn.scrapinghub.com/scrapy/
 [css cheat sheet](https://guide.freecodecamp.org/css/tutorials/css-selectors-cheat-sheet/)
 
 https://docs.scrapy.org/en/latest/topics/item-pipeline.html#duplicates-filter
+
+
+https://medium.com/@lohani.1575/scrapyman-part-2-dfe806c06c39
