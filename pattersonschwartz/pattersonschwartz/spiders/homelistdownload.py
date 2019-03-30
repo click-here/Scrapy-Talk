@@ -2,10 +2,10 @@
 import scrapy
 
 
-class HomelistSpider(scrapy.Spider):
-    name = 'homelist'
-    allowed_domains = ['https://pattersonschwartz.com']
-    start_urls = ['http://www.pattersonschwartz.com/forsale/Harford/priceMin_250000/priceMax_650000/pages_5000/']
+class HomelistdownloadSpider(scrapy.Spider):
+    name = 'homelistdownload'
+    allowed_domains = ['pattersonschwartz.com']
+    start_urls = ['http://www.pattersonschwartz.com/forsale/Harford/priceMin_300000/priceMax_400000/sort_1/']
 
     def parse(self, response):
         for r in response.css('.psr-result'):
@@ -15,4 +15,3 @@ class HomelistSpider(scrapy.Spider):
                 'address': r.css('.psr-address > span:nth-of-type(2)::text').get(),
                 'listingurl': r.css('.psr-more-info::attr(href)').get()
             }
-
