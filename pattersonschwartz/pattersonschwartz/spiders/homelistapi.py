@@ -12,19 +12,12 @@ class HomelistapiSpider(scrapy.Spider):
     def parse(self, response):
         data = json.loads(response.text)
         for r in data['thumbs']:
-            yield{
+            yield {
                 'id' : r['id'],
                 'address' : r['a'],
                 'price' : r['p'],
                 'cdp' : r['c'],
-                'picture' : r['pu'],
-                'vt': r['vt'],
-                'cb': r['cb'],
-                'f': r['f'],
-                'nl': r['nl'],
-                'np': r['np'],
-                'oh' : r['oh'],
-                'd': r['d']
+                'picture' : r['pu']
             }
         if not data['isLastPage']:
             self.page += 1
