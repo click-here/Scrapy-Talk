@@ -1,6 +1,9 @@
 # Scrapy-Talk
 Notes for Scrapy presentation
 
+# Resources
+Web Scraping Blog: http://sangaline.com/
+
 
 # Notes
 
