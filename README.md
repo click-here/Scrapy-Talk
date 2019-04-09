@@ -4,9 +4,6 @@ Notes for Scrapy presentation
 # Resources
 Web Scraping Blog: http://sangaline.com/
 
-
-# Notes
-
 Learn about CSS selectors with this game: http://toolness.github.io/css-selector-game/
 
 Scraping Hubs Tutorial: https://learn.scrapinghub.com/scrapy/
