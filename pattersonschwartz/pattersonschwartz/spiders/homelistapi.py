@@ -6,7 +6,7 @@ class HomelistapiSpider(scrapy.Spider):
     name = 'homelistapi'
     allowed_domains = ['pattersonschwartz.com']
     page = 1
-    api_url = 'http://www.pattersonschwartz.com/api/ps/forsale/Cecil,Harford/priceMin_225000/priceMax_600000/page_{}'
+    api_url = 'http://www.pattersonschwartz.com/api/ps/forsale/Cecil,Harford/priceMin_525000/priceMax_600000/page_{}'
     start_urls = [api_url.format(page)]
 
     def parse(self, response):

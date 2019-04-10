@@ -5,7 +5,7 @@ import scrapy
 class HomelistSpider(scrapy.Spider):
     name = 'homelist'
     allowed_domains = ['https://pattersonschwartz.com']
-    start_urls = ['http://www.pattersonschwartz.com/forsale/Harford/priceMin_250000/priceMax_650000/pages_5000/']
+    start_urls = ['http://www.pattersonschwartz.com/forsale/Harford/priceMin_450000/priceMax_650000/pages_5000/']
 
     def parse(self, response):
         for r in response.css('.psr-result'):

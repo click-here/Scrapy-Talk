@@ -27,5 +27,6 @@ class PattersonschwartzPipeline(object):
         currentprice = ''.join(re.findall('\d+', item['price']))
         self.c.execute('insert into Homes values (?,?,?,?,?)', (item['address'], item['id'], item['cdp'], datetime.datetime.now(), currentprice))
         self.conn.commit()
+        return item
 
     
