@@ -13,5 +13,6 @@ Scraping Hubs Tutorial: https://learn.scrapinghub.com/scrapy/
 
 https://docs.scrapy.org/en/latest/topics/item-pipeline.html#duplicates-filter
 
+https://soundcloud.com/talkpython/50-web-scraping-at-scale-with-scrapy-and-scrapinghub
 
 https://medium.com/@lohani.1575/scrapyman-part-2-dfe806c06c39
